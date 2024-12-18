@@ -1,3 +1,16 @@
+### Security Vulnerabilities Found During npm Install
+
+#### Description
+
+While installing the required JavaScript packages using `npm install`, several security warnings were encountered. These warnings include deprecated packages and vulnerabilities with varying severity levels. Below are the details of the vulnerabilities:
+
+-   **braces**: Uncontrolled resource consumption (Severity: High)
+-   **cross-spawn**: Regular Expression Denial of Service (ReDoS) (Severity: High)
+-   **micromatch**: Regular Expression Denial of Service (ReDoS) (Severity: Moderate)
+-   **ws**: Denial of Service (DoS) when handling a request with many HTTP headers (Severity: High)
+
+## To address these issues, it is recommended to run `npm audit fix`. Further details can be found by running `npm audit`.
+
 jmg@infinity-1 OC-exercices-js-P5 % npm install
 npm warn deprecated domexception@4.0.0: Use your platform's native DOMException instead
 npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
