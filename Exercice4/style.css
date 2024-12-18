@@ -19,6 +19,15 @@ header h1 {
     text-align: center;
 }
 
+main {
+    display: flex;
+}
+
+aside {
+    flex: 1;
+}
+
 section {
+    flex: 2;
     margin: 20px;
 }
