@@ -13,3 +13,8 @@ aside {
 footer {
     background-color: #99CC99;
 }
+
+header h1 {
+    font-weight: bold;
+    text-align: center;
+}
