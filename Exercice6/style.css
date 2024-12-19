@@ -1,10 +1,7 @@
-ul {
-  padding: 0 0 0 10px;
-}
-
 li {
   color: blue;
-  margin: 0 0 15px 0;
+  padding-left: 10px;
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
